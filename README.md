@@ -37,11 +37,10 @@ The Timetable Management System is a web-based application designed to manage an
    ```bash
    mysql -u your_username -p your_database < ttms.sql
 4. **Configure Database:**
-   <?php $servername = "localhost";
+   $servername = "localhost";
    $username = "your_username";
    $password = "your_password";
    $dbname = "your_database";
-?>
    
 5. **Start the Server:**
   * Place the project files in the web server’s root directory (e.g., htdocs for XAMPP).
