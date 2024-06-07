@@ -36,7 +36,7 @@ The Timetable Management System is a web-based application designed to manage an
 3. **Set up database:**
    ```bash
    mysql -u your_username -p your_database < ttms.sql
-4. **Configure Database:**
+4. **Configure Database:**<br>
    $servername = "localhost"; <br>
    $username = "your_username";<br>
    $password = "your_password";<br>
